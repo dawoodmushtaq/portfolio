@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dawood Mushtaq</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">dawood's portfolio</a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hello fade-up" style="--d:.1s">Hello, I'm</p>
+        <h1 class="fade-up" style="--d:.2s">Dawood Mushtaq</h1>
+        <h2 class="fade-up" style="--d:.3s"><span id="typed">Web designer</span><span class="caret"></span></h2>
+        <p class="intro fade-up" style="--d:.4s">I design and build clean, easy-to-use websites that look good on every screen, from a small phone to a big monitor.</p>
+        <div class="buttons fade-up" style="--d:.5s">
+          <a href="#contact" class="btn primary">Hire me</a>
+          <a href="#projects" class="btn outline">See my work</a>
+        </div>
+        <div class="socials fade-up" style="--d:.6s">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-img fade-up" style="--d:.35s">
+        <img src="hero.png" width="440" height="430" alt="Illustration of a web designer working at a desk">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section alt" id="about">
+    <div class="container">
+      <h2 class="title reveal">About <span>me</span></h2>
+      <div class="about-grid">
+        <dl class="facts reveal">
+          <div><dt>Name</dt><dd>Dawood Mushtaq</dd></div>
+          <div><dt>Profession</dt><dd>Web designer</dd></div>
+          <div><dt>Focus</dt><dd>Responsive websites</dd></div>
+          <div><dt>Status</dt><dd>Open to work</dd></div>
+        </dl>
+        <div class="about-text reveal">
+          <p>I'm <strong>Dawood</strong>, a web designer who likes turning a rough idea into a page people actually enjoy using.</p>
+          <p>I start with the layout and the words, then add colour, spacing and a little motion so everything feels natural. I care about pages that load fast, read clearly and work on any device.</p>
+          <p>When I'm not designing, I'm usually learning something new in HTML, CSS and JavaScript.</p>
+          <a href="#contact" class="btn primary">Let's talk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="title reveal">My <span>skills</span></h2>
+      <div class="skill-grid">
+        <div class="skill reveal" style="--level:.9"><div class="top"><span>HTML</span><span>90%</span></div><div class="bar"><span></span></div></div>
+        <div class="skill reveal" style="--level:.85"><div class="top"><span>CSS</span><span>85%</span></div><div class="bar"><span></span></div></div>
+        <div class="skill reveal" style="--level:.7"><div class="top"><span>JavaScript</span><span>70%</span></div><div class="bar"><span></span></div></div>
+        <div class="skill reveal" style="--level:.88"><div class="top"><span>Responsive design</span><span>88%</span></div><div class="bar"><span></span></div></div>
+        <div class="skill reveal" style="--level:.75"><div class="top"><span>UI design in Figma</span><span>75%</span></div><div class="bar"><span></span></div></div>
+        <div class="skill reveal" style="--level:.65"><div class="top"><span>Git &amp; GitHub</span><span>65%</span></div><div class="bar"><span></span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section alt" id="projects">
+    <div class="container">
+      <h2 class="title reveal">My <span>projects</span></h2>
+      <div class="project-grid">
+        <article class="project reveal">
+          <div class="thumb"><div class="t1">&lt;/&gt;</div></div>
+          <div class="info">
+            <h3>Personal Portfolio</h3>
+            <p>The site you're looking at. Plain HTML and CSS with a few small animations.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a class="link" href="https://github.com/" target="_blank" rel="noopener">View project <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="project reveal" style="transition-delay:.1s">
+          <div class="thumb"><div class="t2">Aa</div></div>
+          <div class="info">
+            <h3>Coffee Shop Landing Page</h3>
+            <p>A one-page site for a local cafe with a menu, opening hours and a map section.</p>
+            <div class="tags"><span>Responsive</span><span>Flexbox</span><span>Grid</span></div>
+            <a class="link" href="https://github.com/" target="_blank" rel="noopener">View project <span>&rarr;</span></a>
+          </div>
+        </article>
+        <article class="project reveal" style="transition-delay:.2s">
+          <div class="thumb"><div class="t3">&#10003;</div></div>
+          <div class="info">
+            <h3>To-do App</h3>
+            <p>A simple task list where you can add, tick off and delete tasks. It remembers them next time.</p>
+            <div class="tags"><span>JavaScript</span><span>localStorage</span></div>
+            <a class="link" href="https://github.com/" target="_blank" rel="noopener">View project <span>&rarr;</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="hint reveal">These are sample projects. Replace the titles, text and links with your own.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="title reveal">Get in <span>touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>Have a project in mind or just want to say hi? Send me a message and I'll get back to you.</p>
+          <div class="info-row"><small>Email</small><strong id="emailText">dawoodmushtaq1231@gmail.com</strong></div>
+          <div class="info-row"><small>Phone</small><strong>+917006884846</strong></div>
+          <div class="info-row"><small>Elsewhere</small><strong>GitHub &middot; LinkedIn &middot;</strong></div>
+        </div>
+        <form id="contactForm" class="reveal" novalidate>
+          <label for="name">Your name
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </label>
+          <label for="email">Your email
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </label>
+          <label for="message">Message
+            <textarea id="message" name="message" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <span>&copy; <span id="year">2026</span> Dawood Mushtaq</span>
+    <a href="#home">Back to top &uarr;</a>
+  </div>
+</footer>
+
+<script>
+  // mobile menu
+  var menuBtn = document.getElementById('menuBtn');
+  var menu = document.getElementById('menu');
+  menuBtn.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    menuBtn.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', String(open));
+  });
+  menu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      menu.classList.remove('open');
+      menuBtn.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // typing text in the hero
+  var words = ['Web designer', 'Front-end developer', 'Creative thinker'];
+  var typed = document.getElementById('typed');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce) {
+    var w = 0, c = words[0].length, deleting = true;
+    (function type() {
+      var word = words[w];
+      c += deleting ? -1 : 1;
+      typed.textContent = word.slice(0, c);
+      var delay = deleting ? 50 : 90;
+      if (!deleting && c === word.length) { deleting = true; delay = 1600; }
+      else if (deleting && c === 0) { deleting = false; w = (w + 1) % words.length; delay = 300; }
+      setTimeout(type, delay);
+    })();
+  }
+
+  // fade things in as they scroll into view, and fill the skill bars
+  var seen = new IntersectionObserver(function (items) {
+    items.forEach(function (item) {
+      if (!item.isIntersecting) return;
+      item.target.classList.add('show');
+      if (item.target.classList.contains('skill')) item.target.classList.add('go');
+      seen.unobserve(item.target);
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(function (el) { seen.observe(el); });
+
+  // contact form: opens the visitor's email app with the message filled in
+  var MY_EMAIL = 'yourname@example.com';
+  var form = document.getElementById('contactForm');
+  var note = document.getElementById('formNote');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!form.checkValidity()) {
+      note.textContent = 'Please fill in your name, a valid email and a message.';
+      return;
+    }
+    var subject = 'Message from ' + document.getElementById('name').value;
+    var body = document.getElementById('message').value + '\n\n' + document.getElementById('name').value + ' (' + document.getElementById('email').value + ')';
+    note.textContent = 'Your email app should open with the message ready. If nothing happens, copy my email address and send it from there.';
+    window.location.href = 'mailto:' + MY_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
